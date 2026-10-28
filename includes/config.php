@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 $siteName = 'Daabu Car Vendor Ltd';
 $tagline = 'Find the right car for every journey.';

@@ -312,6 +312,32 @@ h3 {
     font-size: 1.35rem;
 }
 
+.service-card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.service-card > p {
+    margin-bottom: 1rem;
+}
+
+.service-card .service-price {
+    margin-top: auto;
+    color: var(--color-ink);
+    font-weight: 700;
+}
+
+.service-link {
+    margin-top: 0.25rem;
+    font-weight: 700;
+}
+
+.service-icon {
+    font-size: 1.6rem;
+    letter-spacing: 0;
+}
+
 .service-note {
     margin-top: 2rem;
     padding: 1.25rem 1.5rem;
@@ -321,6 +347,27 @@ h3 {
 
 .service-note p {
     margin: 0;
+}
+
+.team-section {
+    margin-top: 3rem;
+}
+
+.team-section h2 {
+    font-size: clamp(1.6rem, 3vw, 2rem);
+}
+
+.team-role {
+    margin-bottom: 0.75rem;
+    color: var(--color-brand-dark) !important;
+    font-weight: 700;
+}
+
+.detail-price {
+    margin-bottom: 1.5rem;
+    color: var(--color-ink);
+    font-size: 1.75rem;
+    font-weight: 800;
 }
 
 .contact-layout {
