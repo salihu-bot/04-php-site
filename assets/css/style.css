@@ -464,6 +464,108 @@ h3 {
     color: #8e1c14;
 }
 
+.auth-card {
+    width: min(100%, 520px);
+    padding: 2rem;
+    border: 1px solid #e7eeec;
+    border-radius: 10px;
+    background: var(--color-white);
+    box-shadow: var(--shadow-card);
+}
+
+.auth-card h2 {
+    font-size: 1.65rem;
+}
+
+.auth-card > p:not(.form-alert) {
+    color: var(--color-muted);
+}
+
+.auth-form {
+    margin-top: 1.5rem;
+}
+
+.messages-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+    gap: 1rem;
+}
+
+.messages-toolbar form {
+    margin: 0;
+}
+
+.count-badge {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0.45rem 0.8rem;
+    border-radius: 999px;
+    background: var(--color-surface);
+    color: var(--color-ink);
+    font-weight: 700;
+    gap: 0.45rem;
+}
+
+.count-badge span {
+    color: var(--color-brand-dark);
+}
+
+.button-secondary {
+    background: #e7eeec;
+    color: var(--color-ink);
+}
+
+.button-secondary:hover {
+    background: #d7e4e0;
+    color: var(--color-ink);
+}
+
+.messages-table-wrap {
+    overflow-x: auto;
+    border: 1px solid #e7eeec;
+    border-radius: 10px;
+    box-shadow: var(--shadow-card);
+}
+
+.messages-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.messages-table th,
+.messages-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #e7eeec;
+    vertical-align: top;
+}
+
+.messages-table th {
+    background: var(--color-surface);
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.messages-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.message-cell {
+    min-width: 240px;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.empty-state {
+    padding: 2rem;
+    border-radius: 8px;
+    background: var(--color-surface);
+    color: var(--color-muted);
+}
+
 .site-footer {
     padding-block: 1.5rem;
     background: #132d38;
